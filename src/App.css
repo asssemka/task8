@@ -1,0 +1,104 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Стили для формы добавления объявлений */
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.advertisement-card {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.advertisement-card h2 {
+  color: #000000;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.advertisement-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.advertisement-card input,
+.advertisement-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.advertisement-card textarea {
+  resize: vertical;
+}
+
+.advertisement-card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-button {
+  background-color: #e3e2e2;
+  color: #000000;
+  padding: 10px 20px; /* Добавляем отступы вокруг текста кнопки */
+  cursor: pointer; /* Указываем курсор при наведении на кнопку */
+  border-radius: 5px; /* Скругляем углы */
+}
+
+.add-button:hover {
+  background-color: #f0f0f0; /* Изменяем цвет фона при наведении */
+}
+
+
+.update-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancel-button {
+  background-color: #000000;
+  color: #fff;
+}
+
+.advertisement-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px; /* Отступ сверху */
+  display: flex; /* Добавляем flex */
+  flex-direction: column; /* Устанавливаем направление flex */
+  align-items: center; /* Выравниваем элементы по центру */
+}
+
+.advertisement-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  width: 800px;
+  margin-bottom: 20px; /* Отступ между элементами списка */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Выравниваем содержимое по центру */
+}
+
